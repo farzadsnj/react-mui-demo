@@ -7,6 +7,7 @@ import { MuiButton } from './components/MuiButton';
 import MuiCard from './components/MuiCard';
 import MuiCheckBox from './components/MuiCheckBox';
 import MuiImageList from './components/MuiImageList';
+import MuiNavbar from './components/MuiNavbar';
 import { MuiRadioButton } from './components/MuiRadioButton';
 import MuiRating from './components/MuiRating';
 import MuiSelect from './components/MuiSelect';
@@ -17,7 +18,7 @@ import { MuiTypography } from './components/MuiTypography';
 function App() {
   return (
     <div className="App">
-      <MuiTypography />
+      {/* <MuiTypography />
       <MuiButton />
       <MuiTextField />
       <MuiSelect />
@@ -29,7 +30,8 @@ function App() {
       <MuiBox />
       <MuiCard />
       <MuiAccordion />
-      <MuiImageList />
+      <MuiImageList /> */}
+      <MuiNavbar />
     </div>
   );
 }
