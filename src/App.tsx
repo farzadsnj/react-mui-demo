@@ -32,11 +32,17 @@ import MuiTextField from "./components/MuiTextField";
 import MuiTooltip from "./components/MuiTooltip";
 import { MuiTypography } from "./components/MuiTypography";
 import MuiDateTimePickerLab from "./components/MuiDateTimePickerLab";
+import MuiDateRangePicker from "./components/MuiDateRangePicker";
+import MuiTab from "./components/MuiTab";
+import MuiTimeLine from "./components/MuiTimeLine";
+import MuiMasonry from "./components/MuiMasonry";
+import MuiResponsiveness from "./components/MuiResponsiveness";
+import MuiCustomTheme from "./components/MuiCustomTheme";
 
 function App() {
   return (
-      <div className="App">
-        {/* <MuiTypography />
+    <div className="App">
+      <MuiTypography />
       <MuiButton />
       <MuiTextField />
       <MuiSelect />
@@ -48,7 +54,7 @@ function App() {
       <MuiBox />
       <MuiCard />
       <MuiAccordion />
-      <MuiImageList /> 
+      <MuiImageList />
       <MuiNavbar />
       <MuiLink />
       <MuiBreadCrumbs />
@@ -59,16 +65,22 @@ function App() {
       <MuiBadge />
       <MuiList />
       <MuiChip />
-      <MuiTooltip />  
-      <MuiTable /> */}
-        {/* <MuiAlert /> */}
-        {/* <MuiSnackbar />
+      <MuiTooltip />
+      <MuiTable />
+      <MuiAlert />
+      <MuiSnackbar />
       <MuiDialog />
       <MuiProgress />
-      <MuiSkeleton /> */}
-        <MuiLoadignButton />
-        <MuiDateTimePickerLab />
-      </div>
+      <MuiSkeleton />
+      <MuiLoadignButton />
+      <MuiDateTimePickerLab />
+      <MuiDateRangePicker />
+      <MuiTab />
+      <MuiTimeLine />
+      <MuiMasonry />
+      <MuiResponsiveness />
+      <MuiCustomTheme />
+    </div>
   );
 }
 
