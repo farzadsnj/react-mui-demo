@@ -3,7 +3,7 @@ import { SpeedDial, SpeedDialAction, SpeedDialIcon } from "@mui/material";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import ContentPasteIcon from "@mui/icons-material/ContentPaste";
 import ShareIcon from "@mui/icons-material/Share";
-import EditIcon from '@mui/icons-material/Edit'
+import EditIcon from "@mui/icons-material/Edit";
 
 const MuiSpeedDial = () => {
   return (

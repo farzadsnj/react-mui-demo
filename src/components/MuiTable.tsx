@@ -11,7 +11,7 @@ import {
 
 const MuiTable = () => {
   return (
-    <TableContainer component={Paper} sx={{maxHeight: '300px'}}>
+    <TableContainer component={Paper} sx={{ maxHeight: "300px" }}>
       <Table aria-label="simple table" stickyHeader>
         <TableHead>
           <TableRow>

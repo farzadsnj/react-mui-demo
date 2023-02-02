@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Box, Tab } from "@mui/material";
 import { TabContext, TabList, TabPanel } from "@mui/lab";
-import CategoryIcon from '@mui/icons-material/Category';
+import CategoryIcon from "@mui/icons-material/Category";
 
 const MuiTab = () => {
   const [value, setValue] = useState("1");
@@ -11,7 +11,7 @@ const MuiTab = () => {
   return (
     <Box>
       <TabContext value={value}>
-        <Box sx={{ borderBottom: 1, borderColor: "divider", width: '300px'}}>
+        <Box sx={{ borderBottom: 1, borderColor: "divider", width: "300px" }}>
           <TabList
             aria-label="Tabs example"
             onChange={handleChange}
@@ -19,10 +19,15 @@ const MuiTab = () => {
             indicatorColor="secondary"
             // centered
             variant="scrollable"
-            scrollButtons='auto'
+            scrollButtons="auto"
           >
-            <Tab label="Tab One" value="1" icon={<CategoryIcon />} iconPosition='start'/>
-            <Tab label="Tab Two" value="2" disabled/>
+            <Tab
+              label="Tab One"
+              value="1"
+              icon={<CategoryIcon />}
+              iconPosition="start"
+            />
+            <Tab label="Tab Two" value="2" disabled />
             <Tab label="Tab Three" value="3" />
             <Tab label="Tab Three" value="4" />
             <Tab label="Tab Three" value="5" />

@@ -1,37 +1,38 @@
-import React from 'react'
-import {createTheme, colors, ThemeProvider, Box} from '@mui/material'
+import React from "react";
+import { createTheme, colors, ThemeProvider, Box } from "@mui/material";
 
 const theme = createTheme({
   status: {
-    danger: '#e53e3e'
+    danger: "#e53e3e",
   },
-  palette:{
-    secondary:{
-      main: colors.orange[500]
-    }, 
+  palette: {
+    secondary: {
+      main: colors.orange[500],
+    },
     neutral: {
       // main: colors.grey[500]
-    }
-  }
-})
+    },
+  },
+});
 
 const MuiCustomTheme = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Box sx={{
-        height: '300px',
-        width: {
+      <Box
+        sx={{
+          height: "300px",
+          width: {
             xs: 100,
             sm: 200,
             md: 300,
             lg: 400,
-            xl: 500
-        },
-        bgcolor: 'secondary.main'
-    }}
-    ></Box>
+            xl: 500,
+          },
+          bgcolor: "secondary.main",
+        }}
+      ></Box>
     </ThemeProvider>
-  )
-}
+  );
+};
 
-export default MuiCustomTheme
+export default MuiCustomTheme;
